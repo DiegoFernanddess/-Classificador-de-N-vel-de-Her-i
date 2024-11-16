@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Nível De Herói</title>
+    <link rel="shortcut icon" href="./imagens/pixel-game-t1wbphoik25fw7eo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="box" id="form">
+        <form class="box__form" onsubmit=" return false;">
+
+            <legend>Consulte o nível do seu Herói</legend>
+
+            <label class="box__title" for="username">Nome do Herói:</label>
+            <input class="box__user" type="text" id="username" name="username">
+            <label class="box__title" for="userxp">XP do Herói:</label>
+            <input class="box__user" type="text" id="userxp" name="userxp">
+            <input class="box__button" type="submit" value="Consultar" onclick="consultarNivel()">
+
+        </form>
+    </div>
+    <div class="box__result" id="result"></div>
+    <section class="redes">
+        <a href="https://github.com/DiegoFernanddess" target="_blank" rel="noopener noreferrer"><ion-icon
+                name="logo-github"></ion-icon></a>
+        <a href="https://www.instagram.com/diego_fernanddess/" target="_blank" rel="noopener noreferrer"><ion-icon
+                name="logo-instagram"></ion-icon></ion-icon></a>
+        <a href="https://www.linkedin.com/in/diego-fernandes-280810246/" target="_blank" rel="noopener noreferrer"><ion-icon
+                name="logo-linkedin"></ion-icon></a>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
